@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/stil.css" />
+		<script type="text/javascript">
+			function odjava() {
+				window.localStorage.removeItem('access_token');
+				window.localStorage.removeItem('id_uporabnika');
+			}	
+		</script>
+    </head>
+    
+    
+    <body>
+   
+        <div class="dropdown">
+            <button class="dropbtn"><a href="domaca.php">Domov</a></button>
+            <div class="dropdown-content">    
+            </div>
+        </div>
+    
+        <div class="dropdown">
+            <button class="dropbtn">Dobavitelji</button>
+            <div class="dropdown-content">    
+            <a href="vsiDobaviteljiU.php">Vsi dobavitelji</a>
+            </div>
+        </div>
+    
+        <div class="dropdown">
+            <button class="dropbtn">Izdelki</button>
+            <div class="dropdown-content">    
+            <a href="vsiIzdelkiU.php">Vsi izdelki</a>
+            </div>
+        </div>
+        
+        <div class="dropdown">
+            <button class="dropbtn">Stranke</button>
+            <div class="dropdown-content">    
+            <a href="vseStrankeU.php">Vse stranke</a>
+            </div>
+        </div>   
+    
+        <div class="dropdown">
+            <button class="dropbtn">Projekti</button>
+            <div class="dropdown-content">    
+               <a href="projekt.php">Moji projekti</a>
+            </div>
+        </div>
+            
+        <div class="dropdown">
+            <button class="dropbtn">Zemljevid</button>
+            <div class="dropdown-content">    
+            <a href="zemljevid.php">Zemljevid</a>
+            </div>
+        </div>
+        
+         <div class="dropdown">
+            <button class="dropbtn"><a href="index.php" onclick = "odjava()" id="odjava">Odjavi se</a></button>
+            <div class="dropdown-content">    
+            </div>
+        </div>     
+        
+    </body>
+</html>   
+        
+
+
+
+
+
+
+
+
+
+
+
+
+	

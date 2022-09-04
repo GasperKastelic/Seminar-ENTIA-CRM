@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+slika {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+		}
+.hero{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("../images/back.jpg");
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.form-box{
+	width: 350px;
+	height: 600px;
+	position: relative;
+	margin: 6% auto;
+	background: #fff;
+	padding: 5px;
+	overflow: hidden;
+}
+.button-box{
+	width: 240px;
+	margin: 35px auto;
+	position: relative;
+	border-radius: 10px;
+}
+.toggle-btn{
+	padding: 20px 35px;
+	cursor: pointer;
+	margin: auto;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+}
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 120px;
+	height: 100%;
+	background: linear-gradient(to right, #669933,#669933);
+	border-radius: 10px;
+	transition: 0s;
+}
+.input-group{
+	top: 100px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+.input-field{
+	width: 100%;
+	padding: 15px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #669933;
+	outline: none;
+	background: transparent;
+}
+.submit-btn{
+	width: 100%;
+	padding: 10px 10px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right, #669933,#669933);
+	border: 0;
+	outline: none;
+	border-radius: 10px;
+}
+#login{
+	left: 40px;
+}
+#register{
+	position: absolute;
+	left: 450px;
+}
+
+#register{height:400px;overflow-y:auto}

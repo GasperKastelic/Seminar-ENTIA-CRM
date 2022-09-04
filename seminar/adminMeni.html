@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/stil.css" />
+		<script type="text/javascript">
+			function odjava() {
+				window.localStorage.removeItem('access_token');
+				window.localStorage.removeItem('id_uporabnika');
+			}	
+		</script>   
+	</head>
+	<body>
+   
+        <div class="dropdown">
+            <button class="dropbtn"><a href="domacaAdmin.php">Domov</a></button>
+        <div class="dropdown-content"></div> 
+        </div>
+    
+        <div class="dropdown">
+            <button class="dropbtn">Dobavitelji</button>
+            <div class="dropdown-content">    
+                <a href="vsiDobavitelji.php">Seznam</a>
+                <a href="dobavitelj.php">Uredi</a>
+                <a href="dodajDobavitelja.php">Dodaj</a>
+            </div>
+        </div>
+        
+        <div class="dropdown">
+            <button class="dropbtn">Izdelki</button>
+            <div class="dropdown-content">    
+                <a href="vsiIzdelki.php">Seznam</a>
+                <a href="izdelek.php">Uredi</a>
+                <a href="dodajIzdelek.php">Dodaj</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Stranke</button>
+            <div class="dropdown-content">    
+                <a href="vseStranke.php">Seznam</a>
+                <a href="stranka.php">Uredi</a>
+                <a href="dodajStranko.php">Dodaj</a>
+            </div>
+        </div>   
+    
+        <div class="dropdown">
+            <button class="dropbtn">Projekti</button>
+            <div class="dropdown-content">    
+               <a href="vsiProjekti.php">Pregled</a>
+               <a href="dodajProjekt.php">Dodaj</a>
+            </div>
+        </div>
+        
+        <div class="dropdown">
+            <button class="dropbtn">Vodje</button>
+            <div class="dropdown-content">    
+	           <a href="vsiUporabniki.php">Pregled</a>
+               <a href="uporabnik.php">Uredi</a>
+            </div>
+        </div>
+        
+        <div class="dropdown">
+            <button class="dropbtn"><a href="index.php" onclick = "odjava()" id="odjava">Odjavi se</a></button>  
+        </div>     
+        
+    </body>
+</html>   
+        
+
+
+
+
+
+
+
+
+
+
+
+
+	
